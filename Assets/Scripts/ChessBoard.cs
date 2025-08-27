@@ -20,7 +20,7 @@ public class ChessBoard : MonoBehaviour
             for (int x = 0; x < 8; x++)
             {
                 Gizmos.color = (Gizmos.color == Color.white) ? Color.black : Color.white;
-                Gizmos.DrawCube(new Vector3(x, y), Vector3.one);
+                Gizmos.DrawWireCube(new Vector3(x, y), Vector3.one*0.95f);
             }
             Gizmos.color = (Gizmos.color == Color.white) ? Color.black : Color.white;
 
