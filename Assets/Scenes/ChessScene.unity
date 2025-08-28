@@ -276,9 +276,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: piece
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: color.g
+      value: 0.027406348
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3715021267067418505, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: m_Name
       value: ChessPiece
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7519952019869984429, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: m_LocalPosition.x
