@@ -33,22 +33,18 @@ public class ChessPieces : MonoBehaviour
                     {
                         pos, pos + transform.up * 2f,
                         pos + transform.up * 2f, pos + transform.up * 2f + transform.right,
-                        pos, pos + transform.up * 2f,
                         pos + transform.up * 2f, pos + transform.up * 2f - transform.right,
 
                         pos, pos - transform.up * 2f,
                         pos - transform.up * 2f, pos - transform.up * 2f + transform.right,
-                        pos, pos - transform.up * 2f,
                         pos - transform.up * 2f, pos - transform.up * 2f - transform.right,
 
                         pos, pos + transform.right * 2f,
                         pos + transform.right * 2f, pos + transform.right * 2f + transform.up,
-                        pos, pos + transform.right * 2f,
                         pos + transform.right * 2f, pos + transform.right * 2f - transform.up,
 
                         pos, pos - transform.right * 2f,
                         pos - transform.right * 2f, pos - transform.right * 2f + transform.up,
-                        pos, pos - transform.right * 2f,
                         pos - transform.right * 2f, pos - transform.right * 2f - transform.up,
                     };
 
