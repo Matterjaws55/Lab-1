@@ -12,11 +12,23 @@ public class ChessPieces : MonoBehaviour
         king
     }
 
-    //public Color color = Color.white;
+    public Color color = Color.white;
     public chessPieces piece;
+
+    public Sprite pawnSprite;
+    public Sprite knightSprite;
+    public Sprite bishopSprite;
+    public Sprite rookSprite;
+    public Sprite queenSprite;
+    public Sprite kingSprite;
+
+    private SpriteRenderer spriteRenderer;
 
     private void OnDrawGizmosSelected()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.color = color;
+
         Gizmos.color = Color.red;
 
         Vector3 pos = transform.position;
@@ -25,9 +37,11 @@ public class ChessPieces : MonoBehaviour
         {
             case chessPieces.pawn:
                 Gizmos.DrawLine(pos, pos + transform.up * 1f);
+                spriteRenderer.sprite = pawnSprite;
                 break;
 
             case chessPieces.knight:
+                spriteRenderer.sprite = knightSprite;
                 { 
                 Vector3[] knightLines = new Vector3[]
                     {
@@ -53,6 +67,7 @@ public class ChessPieces : MonoBehaviour
                 break;
 
             case chessPieces.bishop:
+                spriteRenderer.sprite = bishopSprite;
                 Gizmos.DrawLine(pos, pos + (transform.up + transform.right).normalized * 4f);
                 Gizmos.DrawLine(pos, pos + (transform.up - transform.right).normalized * 4f);
                 Gizmos.DrawLine(pos, pos + (-transform.up + transform.right).normalized * 4f);
@@ -60,6 +75,7 @@ public class ChessPieces : MonoBehaviour
                 break;
 
             case chessPieces.rook:
+                spriteRenderer.sprite = rookSprite;
                 Gizmos.DrawLine(pos, pos + transform.up * 4f);
                 Gizmos.DrawLine(pos, pos - transform.up * 4f);
                 Gizmos.DrawLine(pos, pos + transform.right * 4f);
@@ -67,6 +83,7 @@ public class ChessPieces : MonoBehaviour
                 break;
 
             case chessPieces.queen:
+                spriteRenderer.sprite = queenSprite;
                 Gizmos.DrawLine(pos, pos + transform.up * 4f);
                 Gizmos.DrawLine(pos, pos - transform.up * 4f);
                 Gizmos.DrawLine(pos, pos + transform.right * 4f);
@@ -78,6 +95,7 @@ public class ChessPieces : MonoBehaviour
                 break;
 
             case chessPieces.king:
+                spriteRenderer.sprite = kingSprite;
                 Gizmos.DrawLine(pos, pos + transform.up);
                 Gizmos.DrawLine(pos, pos - transform.up);
                 Gizmos.DrawLine(pos, pos + transform.right);

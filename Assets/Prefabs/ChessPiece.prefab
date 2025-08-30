@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -7411164451766530956, guid: 59d2490d29f410642a8c34a4a4167d14, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -105,3 +105,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ChessPieces
   color: {r: 0, g: 0, b: 0, a: 0}
   piece: 0
+  pawnSprite: {fileID: 0}
+  knightSprite: {fileID: 0}
+  bishopSprite: {fileID: 0}
+  rookSprite: {fileID: 0}
+  queenSprite: {fileID: 0}
+  kingSprite: {fileID: 0}

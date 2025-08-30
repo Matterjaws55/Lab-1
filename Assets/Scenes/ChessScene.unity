@@ -278,27 +278,71 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: piece
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: color.b
-      value: 0
+      value: 0.07363987
       objectReference: {fileID: 0}
     - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: color.g
-      value: 0.027406348
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: kingSprite
+      value: 
+      objectReference: {fileID: -6529137269678239781, guid: fd77f040a9c60794ba2ebc44f819e469, type: 3}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: pawnSprite
+      value: 
+      objectReference: {fileID: -2223498260249388719, guid: 9c96f01c9490dad419f369d02225e419, type: 3}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: rookSprite
+      value: 
+      objectReference: {fileID: -5147424345620012212, guid: 7f6199da4e1ebf9428d47f26204c1dc7, type: 3}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: queenSprite
+      value: 
+      objectReference: {fileID: -5599251078739264218, guid: 7d8de3ad7a5cada45861df2dcd3ecd2b, type: 3}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: bishopSprite
+      value: 
+      objectReference: {fileID: -7411164451766530956, guid: 59d2490d29f410642a8c34a4a4167d14, type: 3}
+    - target: {fileID: 1481955235002715102, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: knightSprite
+      value: 
+      objectReference: {fileID: -2428051241250483848, guid: b055f7fd42633cd45bf9a80a90da5780, type: 3}
     - target: {fileID: 3715021267067418505, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: m_Name
       value: ChessPiece
       objectReference: {fileID: 0}
     - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
-      propertyPath: m_Color.b
+      propertyPath: m_Size.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5599251078739264218, guid: 7d8de3ad7a5cada45861df2dcd3ecd2b, type: 3}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_Color.b
+      value: 0.07363987
       objectReference: {fileID: 0}
     - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: m_Color.g
@@ -306,6 +350,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249790508387096906, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7519952019869984429, guid: 941085fd297e5af42a92e7cbafc4fdc3, type: 3}
